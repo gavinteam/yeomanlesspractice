@@ -1,0 +1,121 @@
+body {
+	font-family: "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", "宋体", Arial,
+		Verdana, sans-serif;
+	font-size: 15px;
+	line-height: 1.333333333;
+	color: #f2f4f7;
+}
+
+.jumbotron-adj {
+	margin-top: -20px;
+	margin-bottom: 0px;
+	padding-bottom: 30px;
+}
+
+@media ( min-width : 768px) {
+	h2 {
+		font-size: 70px;
+		letter-spacing: -4px;
+	}
+	h3 {
+		font-size: 50px;
+		letter-spacing: -1px;
+	}
+	.mtx {
+		margin-top: 52px;
+	}
+	.mts {
+		margin-top: 20px;
+	}
+	.lead {
+		font-size: 24px;
+	}
+	.mtm {
+		margin-top: 40px;
+	}
+}
+
+body,.lead {
+	font-weight: 300;
+}
+
+.feature-subtitle {
+	margin-top: 0;
+}
+
+.light-bg {
+	background: #f2f4f7;
+	color: #141c26;
+}
+
+.light-bg2 {
+	background: #141c26;
+}
+
+.white-bg {
+	background: #fff;
+	color: #141c26;
+}
+/*
+#tradescreen_wrapper {
+	display: none;
+	height: 727px;
+	margin: 0 auto;
+	overflow: hidden;
+	position: relative;
+	width: 370px;
+	z-index: 0;
+}
+
+#tradescreen_wrapper #tradescreen_phone_mask {
+	position: relative;
+	z-index: 2;
+}
+*/
+.dark-feature-header {
+	color: #eceff3;
+}
+
+.feature-subtitle {
+	margin-top: 0;
+}
+
+.dark-feature-text {
+	font-weight: 200;
+}
+
+.jumbotron {
+	text-align: center;
+	border-bottom: 1px solid #e5e5e5;
+}
+
+footer .container {
+	padding-top: 20px;
+}
+
+/* change navbar skin color*/
+/*
+.navbar-default {
+background-color: #f8f8f8;
+border-color: #e7e7e7;
+}
+*/
+
+/* change color for active menu in navbar */
+/*
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
+color: #555;
+background-color: #e7e7e7;
+}
+*/
+
+/* let collapse menu be horizontal */
+/*
+@media (max-width: 768px){
+	.navbar-collapse .nav>li {
+		float:left;
+		width: 25%;
+		text-align: center;
+	}
+}
+*/

@@ -1,0 +1,128 @@
+@bluecolor: #1d365d;
+@fontbluecolor: #b9c8e0;
+@fontwhitecolor:#fff;
+
+body{
+
+	padding-top:71px;  /* That is the key for fixed navbar */
+
+}
+
+.full-wide {
+	padding-left: 15px;
+	padding-right: 15px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.item img {
+	height: 588px;
+}
+
+.picturefill-large {
+background-image: no-repeat;
+background-position: center;
+background-repeat: no-repeat;
+-webkit-background-size: cover;
+background-size: cover;
+display: block;
+overflow: hidden;
+}
+
+.picturefill-medium {
+background-image: no-repeat;
+background-position: center;
+background-repeat: no-repeat;
+-webkit-background-size: cover;
+background-size: cover;
+display: block;
+overflow: hidden;
+}
+
+.picturefill-small {
+background-image: no-repeat;
+background-position: center;
+background-repeat: no-repeat;
+-webkit-background-size: cover;
+background-size: cover;
+display: block;
+overflow: hidden;
+}
+
+.img-middle {
+height: 168px;
+}
+.img-small {
+height: 168px;
+}
+.picturefill-large {
+height: 168px;
+}
+
+@media (min-width: 768px){
+.img-middle {
+height: 378px;
+}
+.img-small {
+height: 180px;
+}
+.picturefill-large {
+height: 588px;
+}
+}
+
+
+
+
+
+
+@media screen and (min-width: 768px){
+.navbar {
+	padding: 36px 18px 0;
+	-webkit-transition: padding .2s ease;
+	transition: padding .2s ease;
+}
+.container {
+	width: 980px;
+}
+.navbar.in {
+	padding-bottom: 54px;
+}
+
+.dropdown-menu {
+	width: 431px;
+	border: none;
+	padding-bottom:22px;
+	box-shadow: none;
+	background-color:transparent;
+   	li{
+		float: left;
+		a {
+			display: inline-block;
+		}
+	}
+}
+
+}
+
+.main{
+
+	margin-top:20px;
+	
+	section{
+		.make-row();
+		img{
+			margin-bottom: 18px;
+		}
+	}
+	
+	.tile-title {
+		position:absolute;
+		bottom:20px;
+		left:25px;
+		color:white;
+	}
+}
+
+
+
